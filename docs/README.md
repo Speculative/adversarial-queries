@@ -89,3 +89,9 @@ fine-tuned decoder checkpoints (~940 MB each), the `mapping_layer_*.pt` files, a
 the plan-VAE `*.ckpt` files are all reproducible from the training documentation
 above. Train them and place them where [02_running.md](02_running.md) expects, or
 point the CLI flags at your own paths.
+
+## Released query workloads
+
+The [GREMLIN benchmark guide](../generated-queries/README.md) describes the
+released SQL queries, witness plans, ranking manifests, and execution instructions
+for IMDB (DuckDB and PostgreSQL) and Stack (DuckDB).
